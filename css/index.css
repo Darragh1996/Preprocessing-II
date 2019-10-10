@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -185,6 +190,18 @@ header nav a {
   text-decoration: none;
   font-size: 1.6rem;
   color: black;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  header nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+  header nav a {
+    margin-top: 3%;
+  }
 }
 .footer {
   width: 100%;
@@ -245,4 +262,12 @@ header nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  text-align: center;
+  color: white;
+  background-color: #018080;
+  font-size: 1.6rem;
+  padding: 15px;
+  border-radius: 10px;
 }

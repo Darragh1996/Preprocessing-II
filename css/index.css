@@ -178,24 +178,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 4% 0;
-  border-bottom: 3px dashed #c0c0c0;
-  margin: 0 -100%;
 }
-header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-}
-header .navbar nav {
+header nav {
   display: flex;
   width: 40%;
   justify-content: space-between;
   padding-right: 2%;
 }
-header .navbar nav a {
+header nav a {
   text-decoration: none;
   font-size: 1.6rem;
   color: black;
@@ -223,6 +213,9 @@ header .navbar nav a {
   header nav a {
     margin-top: 3%;
   }
+}
+.border {
+  border-bottom: 3px dashed #c0c0c0;
 }
 .footer {
   width: 100%;

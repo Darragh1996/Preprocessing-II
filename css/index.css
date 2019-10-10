@@ -179,14 +179,23 @@ header {
   align-items: center;
   padding: 4% 0;
   border-bottom: 3px dashed #c0c0c0;
+  margin: 0 -100%;
 }
-header nav {
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .navbar nav {
   display: flex;
   width: 40%;
   justify-content: space-between;
   padding-right: 2%;
 }
-header nav a {
+header .navbar nav a {
   text-decoration: none;
   font-size: 1.6rem;
   color: black;

@@ -1,5 +1,4 @@
 .home {
-
   .top-content {
     img {
       padding-bottom: 2%;
@@ -8,9 +7,8 @@
     p {
       border-bottom: 2px dashed #c0c0c0;
       padding-bottom: 5%;
-      margin-bottom: 2%; 
+      margin-bottom: 2%;
     }
-
   }
 
   .content-section {
@@ -19,8 +17,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -74,24 +70,23 @@
     .btn {
       .btn-mixin(#018080, white, 1.6rem);
     }
-
   }
 
   //mobile view
   @media @mobile {
-
     .content-section {
       flex-direction: column;
       justify-content: stretch;
       width: 100%;
       margin: 5% auto;
 
-      .text-content, .img-content, img {
+      .text-content,
+      .img-content,
+      img {
         width: 100%;
         padding: 0;
         margin: 0 auto;
       }
-
     }
 
     .inverse-content {
@@ -108,13 +103,9 @@
 
         .btn {
           .btn-mixin(#19a2b8, white, 1.6rem);
+          margin: 2% auto;
         }
-
       }
-
     }
-
-
   }
-
-}// home
+} // home
